@@ -45,7 +45,7 @@ A Dockerized WordPress stack running **Nginx + PHP-FPM + MySQL** on an AWS EC2 i
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:sudhanlogics/docker-wordpress.git
+git clone https://github.com/sudhanlogics/docker-wordpress.git
 cd docker-wordpress
 ```
 
