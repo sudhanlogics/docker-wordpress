@@ -76,15 +76,8 @@ WP_DEBUG=true          # set false when done testing
 ### 4. Install Docker on EC2
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y docker.io
-sudo systemctl start docker
-sudo usermod -aG docker $USER
-
-# Install Docker Compose
-sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" \
-     -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+# Install Docker using script
+sudo bash install-docker.sh
 ```
 
 ### 5. Build and start the stack
